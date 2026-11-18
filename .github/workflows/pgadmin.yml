@@ -17,7 +17,7 @@ jobs:
 
       - name: Setup tests deps
         run: |
-          pip install -r requirements.txt
+          pip install -r tests/requirements.txt
 
       - name: Run tests
         run: |
